@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Atif | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HOME ================= -->
+<div id="header">
+
+    <div class="container">
+
+        <nav>
+            <a href="#header" class="logo">Md <span>Atif.</span></a>
+
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <i class="fa-solid fa-xmark close-icon"
+                   onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars menu-icon"
+               onclick="openmenu()"></i>
+        </nav>
+
+
+        <div class="hero">
+
+            <div class="header-text">
+                <p>Web Developer</p>
+
+                <h1>
+                    Hi, I'm <span>Md Atif</span>
+                </h1>
+
+                <h2>
+                    a Computer Science Student<br>
+                    aspiring Full Stack Developer.
+                </h2>
+            </div>
+
+            <div class="hero-image">
+                
+                    
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ================= ABOUT ================= -->
+<div id="about">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="about-col-1">
+                <img src="1788358076990.png" alt="Md Atif">
+            </div>
+
+            <div class="about-col-2">
+
+                <h1 class="sub-title">About me</h1>
+
+                <h2>
+                    "Building, Learning, and evolving —
+                    One project at a time."
+                </h2>
+
+                <p>
+                    Hello, I'm Md Atif, a Computer Science Student and an
+                    aspiring Full Stack Developer. I enjoy building modern,
+                    responsive and user-friendly web applications.
+                    I'm currently improving my skills in HTML, CSS,
+                    JavaScript, Java and exploring backend technologies.
+                    I love learning new technologies, solving problems,
+                    and turning ideas into real-world projects.
+                </p>
+
+                <div class="tab-title">
+
+                    <p class="tab-links active-link"
+                       onclick="opentab('skills')">
+                        Skills
+                    </p>
+
+                    <p class="tab-links"
+                       onclick="opentab('education')">
+                        Education
+                    </p>
+
+                </div>
+
+
+                <div class="tab-contents active-tab" id="skills">
+
+                    <ul>
+                        <h4>Technology I'm Learning</h4>
+
+                        <li><span><b>HTML</b></span></li>
+                        <li><span><b>CSS</b></span></li>
+                        <li><span><b>Java</b></span></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="tab-contents" id="education">
+
+                    <ul>
+                        <h4>SCHOOLING</h4>
+
+                        <li>
+                            <span>
+                                <b>JP Public Academy<br>
+                                Kasganj</b>
+                            </span>
+                        </li>
+
+                        <h4>BACHELOR'S DEGREE (2025-2029)</h4>
+
+                        <li>
+                            <span>
+                                <b>B.Tech - Computer Science &
+                                Engineering</b>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                               <b> Invertis University<br>
+                                Bareilly</b>
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= PROJECTS ================= -->
+<div id="portfolio">
+
+    <div class="container">
+
+        <h1 class="sub-title">Projects</h1>
+
+        <div class="project-list">
+
+            <div class="project">
+
+                <img src="https://m.media-amazon.com/images/I/61ZxKmvOkaL._AC_UF1000,1000_QL80_.jpg"
+                     alt="Smart Soap Dispenser">
+
+                <div class="layer">
+
+                    <h3>Smart Soap Dispenser</h3>
+
+                    <p>
+                        An automatic soap dispensing system
+                        using IR sensor, Arduino, relay
+                        and 5V pump.
+                    </p>
+
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <img src="https://circuitdigest.com/sites/default/files/projectimage_mic/DIY-Self-Balancing-Robot-using-Arduino.jpg"
+                     alt="Self Balancing Robot">
+
+                <div class="layer">
+
+                    <h3>Self Balancing Robot</h3>
+
+                    <p>
+                        A two-wheel self-balancing robot using
+                        ESP32, MPU6050, L298N and BO motor.
+                    </p>
+
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#" class="btn">See More</a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CONTACT ================= -->
+<div id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+
+                <p>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    mohdatif072000@gmail.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    8218923316
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="https://github.com/mohdatif07-dev">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href=" https://www.instagram.com/invites/contact/?utm_content=najbv00&stkn=12ew34vs6eohf">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mohd-atif-70393b380?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+                <a href="#" class="btn btn2">Download CV</a>
+
+            </div>
+
+
+            <div class="contact-right">
+
+                <form>
+
+                    <input type="text"
+                           name="Name"
+                           placeholder="Your Name"
+                           required>
+
+                    <input type="email"
+                           name="Email"
+                           placeholder="Your Email"
+                           required>
+
+                    <textarea name="Message"
+                              rows="6"
+                              placeholder="Your Message"></textarea>
+
+                    <button type="submit"
+                            class="btn btn2">
+                        Submit
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            <i class="fa-regular fa-copyright"></i>
+            Md Atif. Built with love
+            <i class="fa-solid fa-heart"></i>,
+            curiosity & code
+        </p>
+
+    </div>
+
+</div>
+
+
+<script>
+
+const tablinks =
+    document.getElementsByClassName("tab-links");
+
+const tabcontents =
+    document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+
+    document.getElementById(tabname)
+        .classList.add("active-tab");
+}
+
+
+const sidemenu =
+    document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right = "0";
+}
+
+function closemenu() {
+    sidemenu.style.right = "-220px";
+}
+
+</script>
+
+</body>
+</html>
